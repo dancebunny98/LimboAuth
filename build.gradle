@@ -71,6 +71,7 @@ dependencies {
     implementation("org.bstats:bstats-velocity:$bstatsVersion")
 
     compileOnly("com.github.spotbugs:spotbugs-annotations:$spotbugsVersion")
+    compileOnly("org.checkerframework:checker-qual:$checkerVersion")
 }
 
 shadowJar {
