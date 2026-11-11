@@ -82,6 +82,7 @@ dependencies {
 
     compileOnly("com.github.spotbugs:spotbugs-annotations:$spotbugsVersion")
     compileOnly("org.checkerframework:checker-qual:$checkerVersion")
+    compileOnly("org.jetbrains:annotations:$jetbrainsAnnotationsVersion")
 }
 
 shadowJar {
